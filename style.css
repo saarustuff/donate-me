@@ -36,3 +36,13 @@
 .top-btn:hover {
     background-color: green;
 }
+
+/* Mid Text */
+.mid-text {
+    text-align: center;
+    /* padding:30px 0; */
+    margin: 50px 0;
+}
+.mid-text2 {
+    padding-top: 20px;
+}
