@@ -44,5 +44,49 @@
     margin: 50px 0;
 }
 .mid-text2 {
+    color: gray;
     padding-top: 20px;
+}
+
+/* Donate Plan */
+.donate-amount {
+    display: flex;
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+.donate-amount p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #707070;
+    background-color: #FAFAFA;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+.donate-amount p:hover {
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+#select-donate {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+/* Donate Plan Choice */
+.donate-plan-choice {
+    text-align: center;
+    margin-bottom: 30px;
+    align-items: center;
+    color: #B3B3B3;
+}
+hr {
+    margin: 0px 535px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: #da1818;
+}
+.donate-btn {
+    margin-top: 20px;
 }
