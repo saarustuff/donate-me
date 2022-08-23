@@ -1,7 +1,46 @@
 * {
     margin: 0;
-    font-family: montserrat;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* Navbar */
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    /* box-shadow: 1px 1px 10px rgba(251, 2, 2, 0.939); */
+}
+.menuItems {
+    display: flex;
+    margin-left: 50px;
+
+}
+.menuItems li {
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+}
+.menuItems li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuItems li a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.logo-title {
+    font-family: montserrat;
+    font-size: 40px;
+    font-weight: bold;
+    /* font-style: italic; */
+}
+
 .top-section {
     background: linear-gradient(rgba(12, 2, 37, 0.357), rgba(0, 0, 0, 0.756)), url(./images/donation7.jpg);
     background-repeat: no-repeat;
@@ -136,6 +175,25 @@ hr {
 }
 .card3:hover {
     background-color: #f7e6b8;
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #FFF4D6;
+    margin: 0px 260px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    padding: 60px;
+    border-radius: 5px;
+
+}
+.email {
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    margin-right: -10px;
+    text-align: start;
 }
 
 footer {
